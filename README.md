@@ -1,0 +1,2 @@
+# symmetries_and_structural_identifiability
+Lies symmetries and structural identifiability
