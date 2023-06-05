@@ -1,0 +1,27 @@
+# Ignore these formats often created
+# when tex-files are compiled with
+# pdflatex
+*.html
+*.log
+*.aux
+*.bbl
+*.blg
+*.lof
+*.lot
+*.out
+*.toc
+*.tex~
+*.bib~
+*.py~
+*.sh~
+*.md~
+*.yml~
+*.xlsx~
+*.sh~
+*.R~
+# We also remove the gitignore itself
+#.gitignore
+.gitignore~
+.Rhistory
+Code/__pycache__/
+Figures/latex_figures/
