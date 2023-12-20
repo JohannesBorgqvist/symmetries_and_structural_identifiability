@@ -1,2 +1,4 @@
-# symmetries_and_structural_identifiability
-Lies symmetries and structural identifiability
+# Lie symmetries and structural_identifiability
+*Written by:* Johannes Borgqvist,<br>
+*Date:* 2023-12-20.<br>
+This is the github-repository associated with the manuscript about parameter symmetries as a means to deduce structural identifiability of mechanistic ODE models. In the code folder, you find julia scripts that run a classical global SI analysis using a differential algebra approach. These julia scripts uses "[StructuralIdentifiability.jl](https://github.com/SciML/StructuralIdentifiability.jl)", and in order for this toolbox to work you must use version 1.10 of Julia. All scripts writes the ODEs for the observed outputs into tex-files that are stored in the folder "tex\_files\_with\_output\_ODEs". In the Code folder, we have also included a notebook which displays all the details behind the implementation of the CaLinInv-algorithm when analysing the SI of the SEI-model, and this notebook is called "SEI\_CaLinInv\_recipe.ipynb" which uses "[SymPy](https://www.sympy.org/en/index.html)" in order to conduct all symbolic calculations. Thus, this repository contains solely scripts that are completely open-source. 
