@@ -8,10 +8,14 @@
 from sympy import * # For symbolic equations
 # =========================================================
 def main():
+    #----------------------------------------------------------------------
+    #----------------------------------------------------------------------
+    # PART 1: DEFINING THE ODEs
+    #----------------------------------------------------------------------    #---------------------------------------------------------------------
     # Open a file in which we save all equations in LaTeX
     f = open("./SEI_symmetry_analysis_document/notes.tex","a")
     # Define all parameters as symbols\n",
-    c, beta, mu_S, mu_E, mu_I, delta, epsilon = symbols('c, beta, mu_S, mu_E, mu_I, delta, epsilon')
+    c, beta, mu_S, mu_E, mu_I, delta, epsilon, kE, kI = symbols('c, beta, mu_S, mu_E, mu_I, delta, epsilon, kE, kI')
     # Define our independent variable time
     t = symbols('t')
     # Define our three dependent variables being the states
@@ -34,6 +38,12 @@ def main():
     ODE_I = Eq(Derivative(I,t,1),ODE_I)
     f.write("ODE for $I$:")
     f.write(latex(ODE_I,mode='equation').replace("\\\\begin{equation}","\\\\begin{equation}\\n").replace("\\\\end{equation}","\\\\quad\\\\,.\\\\label{eq:ODE_I}\\n\\\\end{equation}\\n"))
+    #----------------------------------------------------------------------
+    #----------------------------------------------------------------------
+    # PART 2: SETTING UP THE LINEARISED SYMMETRY CONDITIONS
+    #----------------------------------------------------------------------    #----------------------------------------------------------------------    
+
+    
 
 # RUN THE MAIN FUNCTION
 if __name__ == "__main__":
