@@ -1,0 +1,60 @@
+% -----------------------------------------------------------------------
+% DEFINE DOCUMENT
+% -----------------------------------------------------------------------
+% Define if you want an article, beamer, a book, a letter etc.
+\documentclass[12pt]{article}
+% -----------------------------------------------------------------------
+% LOAD PACKAGES
+% -----------------------------------------------------------------------
+\usepackage[utf8]{inputenc} % Standard writing
+% General document formatting
+\usepackage[margin=1in]{geometry}
+% \usepackage[parfill]{parskip} % To skip indentation
+\usepackage[utf8]{inputenc}
+% Related to math
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+% Some more mathematical symbols
+\usepackage{mathtools}
+% For referencing footnotes
+\usepackage[symbol]{footmisc}
+% In order to write derivatives quickly and nicely
+\usepackage{physics}
+% In order to include figures
+\usepackage{graphicx}
+% To write an algorithm
+\usepackage[ruled,vlined]{algorithm2e}
+% To add todo lists
+\usepackage[colorinlistoftodos]{todonotes}
+% -----------------------------------------------------------------------
+% GENERAL FORMATTING
+% -----------------------------------------------------------------------
+% Setting length of the margins
+\setlength {\marginparwidth }{2cm}
+% For mathematics
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+% To define the footnotes
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+% Define inputs and outputs for the algorithm
+\SetKwInput{KwInput}{Input}
+\SetKwInput{KwOutput}{Output}
+% Set the graphics-path, i.e. where we store the figures
+%\graphicspath{{./images/}}
+% -----------------------------------------------------------------------
+% DOCUMENT BEGINS
+% -----------------------------------------------------------------------
+\begin{document}
+\title{A symmetry-based structural SI analysis of the SEI model}
+\author{Johannes G. Borgqvist}
+\date{\today}
+\maketitle
+
+\input{./notes.tex}
+
+% -----------------------------------------------------------------------
+% DOCUMENT ENDS
+% -----------------------------------------------------------------------
+\end{document}
