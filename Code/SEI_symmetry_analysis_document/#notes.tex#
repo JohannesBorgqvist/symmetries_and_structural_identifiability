@@ -52,22 +52,5 @@ I^{3}{\left(t \right)} S{\left(t \right)}:&\quad- a_{1} \beta^{2} \upsilon + a_{
 Determining equations stemming from the linearised symmetry condition for S:
 
 \begin{align}
-I^{2}{\left(t \right)}:&\quad- a_{2} \beta c \upsilon^{2} + 2 a_{2} \beta c \upsilon - a_{2} \beta c - \beta \upsilon \chi_{c}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} + \beta \chi_{c}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} - c \upsilon \chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} + c \chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}&=0\,,\label{eq:det_eq_0}\\
-I^{2}{\left(t \right)} S{\left(t \right)}:&\quad\beta \left(\upsilon - 1\right) \chi_{muS}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}&=0\,,\label{eq:det_eq_1}\\
-I^{3}{\left(t \right)} S{\left(t \right)}:&\quad\beta \left(- a_{1} \beta \upsilon + a_{1} \beta - a_{2} \beta \upsilon + a_{2} \beta + \upsilon \chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} - \chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\right)&=0\,,\label{eq:det_eq_2}\\
-
+I^{3}{\left(t \right)} S{\left(t \right)}:&\quad\beta \left(- a_{1} \beta \upsilon + a_{1} \beta - a_{2} \beta \upsilon + a_{2} \beta + \upsilon \chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} - \chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\right)&=0\,,\label{eq:det_eq_0}\\
 \end{align}
-
-
-Equation for $\chi_{\beta}$:\begin{equation}\chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} = \beta \left(a_{1} + a_{2}\right)\end{equation}
-
-Equation for $\chi_{c}$:\begin{equation}\chi_{c}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} = - c \left(a_{1} + a_{2} \upsilon\right)\end{equation}
-
-The parameter infinitesimals are:
-\begin{equation}
-\left[\begin{matrix}\chi_{c}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{\beta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{muS}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{muE}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{muI}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{\delta}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{\upsilon}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{kE}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\\\chi_{kI}{\left(c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)}\end{matrix}\right]=\left[\begin{matrix}- c \left(a_{1} + a_{2} \upsilon\right)\\\beta \left(a_{1} + a_{2}\right)\\0\\a_{2} \delta\\0\\- a_{2} \delta\\a_{2} \upsilon \left(\upsilon - 1\right)\\a_{1} kE\\kI \left(a_{1} + a_{2}\right)\end{matrix}\right]\,.\label{eq:parameter_infinitesimals}
-\end{equation}
-
-
-
-The parameter infinitesimal $\eta_{S}$:\begin{equation}\eta_{S}{\left(t,S{\left(t \right)},E{\left(t \right)},I{\left(t \right)},c,\beta,\mu_{S},\mu_{E},\mu_{I},\delta,\upsilon,kE,kI \right)} = \left(- a_{1} - a_{2} \upsilon\right) S{\left(t \right)}\end{equation}
