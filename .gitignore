@@ -25,3 +25,6 @@
 .Rhistory
 Code/__pycache__/
 Figures/latex_figures/
+# We also neglect a python script solely made to export .tex files so that
+# we can plot figures using pgfplots
+Code/SEI_validation_with_LaTeX.py
